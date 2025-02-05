@@ -6,7 +6,28 @@
     --hero-overlay: rgba(0, 0, 0, 0.6);
 }
 
-/* General styles */
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Logo takes less space */
+    align-items: center;
+    padding: 10px;
+}
+
+header .logo-box {
+    justify-self: start;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+footer img {
+    width: 50px;
+    height: auto;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -22,12 +43,38 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+h1 {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
 p {
     line-height: 1.8;
+    font-weight: 200;
+    font-size: medium;
 }
 
 .sociallinks a {
     text-decoration: none;
+}
+
+
+footer .sociallinks {
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    gap: 15px;
+}
+
+footer img {
+    display: flex;
+    justify-self: right;
+    align-self: flex-end;
+}
+footer p {
+    display: flex;
+    justify-self: center;
+    align-self: center;
 }
 
 .hero {
@@ -67,8 +114,9 @@ p {
 
 .hero article img {
     float: right;
-    margin-left: 20px;
-    width: 120px;
+    margin-left: 40px;
+    width: 150px;
+    height: 200px;
     border-radius: 8px;
 }
 
@@ -81,4 +129,72 @@ p {
         width: 95%;
         padding: 12px;
     }
+}
+
+.history h2 {
+    display: flex;
+    flex: 1;
+    justify-self: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.history h2 {
+    display: flex;
+    flex: 1;
+    justify-self: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.history img {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex: 1;
+    justify-self: center;
+}
+
+.history-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.history-container img {
+    width: 150px;
+    height: auto;
+}
+
+.history-container p {
+    flex: 1;
+}
+
+
+.adventure h2 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.adventure {
+    text-align: center;
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    gap: 10px;
 }
