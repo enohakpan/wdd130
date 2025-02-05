@@ -33,7 +33,6 @@ body {
     font-weight: 400;
     color: var(--text-color);
     background-color: var(--background-color);
-    margin: 0;
     padding: 0;
     max-width: 1200px;
     margin: auto;
@@ -62,19 +61,19 @@ p {
 footer .sociallinks {
     display: flex;
     justify-content: end;
-    align-content: end;
+    align-items: end;
     gap: 15px;
 }
 
 footer img {
     display: flex;
-    justify-self: right;
-    align-self: flex-end;
+    justify-content: right;
+    align-items: flex-end;
 }
 footer p {
     display: flex;
-    justify-self: center;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero {
@@ -134,15 +133,7 @@ footer p {
 .history h2 {
     display: flex;
     flex: 1;
-    justify-self: center;
-    align-items: center;
-    gap: 50px;
-}
-
-.history h2 {
-    display: flex;
-    flex: 1;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     gap: 50px;
 }
@@ -152,7 +143,7 @@ footer p {
     max-width: 200px;
     display: flex;
     flex: 1;
-    justify-self: center;
+    justify-content: center;
 }
 
 .history-container {
@@ -173,8 +164,8 @@ footer p {
 
 .adventure h2 {
     display: flex;
-    justify-self: center;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
     height: 20px;
     font-size: 24px;
     font-weight: bold;
@@ -188,6 +179,7 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .adventure img {
@@ -196,5 +188,4 @@ footer p {
     border-radius: 8px;
     display: flex;
     flex: 1;
-    gap: 10px;
 }
