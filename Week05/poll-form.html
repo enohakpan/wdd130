@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>WDD130 | HTML Forms - User poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD130| ENOH UWEM AKPAN | HTML Forms - User poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>
+                    <label for="fullname">What is your fullname:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <p>
+                    <label for="fav_browser">What is your favorite browser:</label>
+                    <select id="fav_browser" name="brower">
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="opera">Opera</option>
+                        <option value="firefox">FireFox</option>
+                    </select>
+                    <label for="pet">Do you have a pet</label>
+                    <input type="checkbox" id="pet" name="pet">
+                    <label for="feedback">List the places you have lived.</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Port-Harcourt Rivers, Uyo  Akwa-Ibom, Abuja Nigeria"></textarea>
+                </p>
+                </fieldset>
+            <button type="submit">submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2025|HTML Poll User Activity | ENOH UWEM AKPAN | </p>
+    </footer>
+
+</body>
+</html>
